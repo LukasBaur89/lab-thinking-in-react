@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 2rem;
 }
 
 .App-logo {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inStock {
+  color: black;
+}
+
+.outOfStock .name {
+  color: red;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 50vw;
+}
+
+table th {
+  background-color: rgb(198, 198, 255, 0.4);
+}
+
+table td {
+  border-bottom: 1px solid rgb(198, 198, 255, 0.8);
+  padding: 0.5em 0;
 }
