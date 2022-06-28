@@ -60,3 +60,7 @@ table td {
   border-bottom: 1px solid rgb(198, 198, 255, 0.8);
   padding: 0.5em 0;
 }
+
+.searchBar input {
+  font-size: inherit;
+}
